@@ -1,1 +1,10 @@
-I am making a portfolio to showcase the recruiters
+# student portfolio
+
+creating a portfolio for myself
+
+focus on:
+
+1.Js
+2.Node
+3.repl.it
+4.html&css
