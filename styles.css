@@ -36,3 +36,12 @@ hr{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+
+.list{
+    list-style: none;
+}
+
+.list-unordered-inline{
+    display:inline;
+    padding:0rem 0.5rem;
+}
