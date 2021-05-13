@@ -1,106 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Puneet's site</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <h1>Puneet's component library</h1>
-    <p>
-      I am attending level 0 of neog.camp and here I am creating a library to
-      build components which i can use later in any project i build
-    </p>
-    <hr />
 
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>
-      Let me show you how the normal text looks, this is free flowing and will
-      wrap at the end like a paragraph
-    </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puneet's site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <p>This paragraph will have a  <strong>bold</strong></p>
-    <small>This is relatively small text</small>
-    <hr />
+<body>
+  <h1>Puneet's component library</h1>
+  <p>
+    I am attending level 0 of neog.camp and here I am creating a library to
+    build components which i can use later in any project i build
+  </p>
+  <hr />
 
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class='container'>This is a fluid container and will go till the end of the page</div>
-    <h3>center container</h3>
-    <div class='container container-centre'>This is a center container and will go till the specified width</div>
-    <hr />
+  <h2>@typography</h2>
+  <h1>This is the biggest heading</h1>
+  <h2>This is the second biggest</h2>
+  <p>
+    Let me show you how the normal text looks, this is free flowing and will
+    wrap at the end like a paragraph
+  </p>
 
-    <h2>@links</h2>
-    <a href="/" class='link link-primary'>Primary Link</a>
-    <a href="/" class='link link-secondary'>Secondary Link</a>
-    <hr />
+  <p>This paragraph will have a <strong>bold</strong></p>
+  <small>This is relatively small text</small>
+  <hr />
 
-    <h2>@lists</h2>
-    <h3>Unordered list</h3>
-    <ul class='list'>
-      <li>Item one</li>
-      <li>Item two</li>
-      <li>Item three</li>
+  <h2>@container</h2>
+  <h3>fluid container</h3>
+  <div class="container">
+    This is a fluid container and will go till the end of the page
+  </div>
+  <h3>center container</h3>
+  <div class="container container-centre">
+    This is a center container and will go till the specified width
+  </div>
+  <hr />
+
+  <h2>@links</h2>
+  <a href="/" class="link link-primary">Primary Link</a>
+  <a href="/" class="link link-secondary">Secondary Link</a>
+  <hr />
+
+  <h2>@lists</h2>
+  <h3>Unordered list</h3>
+  <ul class="list-non-bullet">
+    <li>Item one</li>
+    <li>Item two</li>
+    <li>Item three</li>
+  </ul>
+  <h3>Unordered inline list</h3>
+  <ul class="list">
+    <li class="list-unordered-inline">Inline item one</li>
+    <li class="list-unordered-inline">Inline item two</li>
+    <li class="list-unordered-inline">Inline item three</li>
+  </ul>
+
+  <h3>Reverse ordered list</h3>
+  <ol reversed>
+    <li>Eggs</li>
+    <li>Milk</li>
+    <li>Banana</li>
+  </ol>
+
+  <hr />
+
+  <h2>@nav</h2>
+  <nav class="navigation">
+    <p class="nav-brand">MyNav</p>
+    <ul class="list-non-bullet nav-pills">
+      <li class="list-unordered-inline">
+        <a href="/" class="link link-active">home</a>
+      </li>
+      <li class="list-unordered-inline">
+        <a href="/" class="link">products</a>
+      </li>
+      <li class="list-unordered-inline">
+        <a href="/" class="link">about</a>
+      </li>
     </ul>
-    <h3>Unordered inline list</h3>
-    <ul class='list'>
-      <li class='list-unordered-inline'>Inline item one</li>
-      <li class='list-unordered-inline'>Inline item two</li>
-      <li class='list-unordered-inline'>Inline item three</li>
+  </nav>
+
+  <hr />
+
+  <h2>@header</h2>
+  <header class="hero">
+    <img src="images/react.svg" alt="headerPic" class="hero-image" />
+    <h1 class="hero-heading">
+      Hola! I am Puneet a
+      <span class="hero-heading-highlight">Web developer</span> by Profession
+    </h1>
+  </header>
+
+  <hr />
+
+  <h2>@section</h2>
+  <section class="section">
+    <div class="container container-centre">
+      <h1>white section</h3>
+      <p>
+        A paragraph is a series of sentences that are organized and coherent,
+        and are all related to a single topic. Almost every piece of writing
+        you do that is longer than a few sentences should be organized into
+        paragraphs. This is because paragraphs show a reader where the
+        subdivisions of an essay begin and end, and thus help the reader see
+        the organization of the essay and grasp its main points.
+      </p>
+    </div>
+  </section>
+
+  <section class='section section-color'>
+    <div class='container container-centre'>
+      <h1>off white section</h3>
+      <p>Paragraphs can contain many different kinds of information. A paragraph could contain a series of brief examples or a single long illustration of a general point. It might describe a place, character, or process; narrate a series of events; compare or contrast two or more things; classify items into categories; or describe causes and effects. Regardless of the kind of information they contain, all paragraphs share certain characteristics. One of the most important of these is a topic sentence.</p>
+    </div>
+
+  </section>
+
+  <hr />
+
+  <h2>@footer</h2>
+  <footer>
+    <div>some small heading</div>
+    <ul>
+      <li>socialOne</li>
+      <li>socialTwo</li>
+      <li>socialThree</li>
     </ul>
+  </footer>
+</body>
 
-    <h3>Reverse ordered list</h3>
-    <ol reversed>
-      <li>Eggs</li>
-      <li>Milk</li>
-      <li>Banana</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-    <nav>
-      <p>MyNav</p>
-      <ul>
-        <li>home</li>
-        <li>products</li>
-        <li>about</li>
-      </ul>
-    </nav>
-
-    <hr />
-
-    <h2>@header</h2>
-    <img src="images/react.svg" alt="headerPic" />
-    <h1>this is heading h1 inside header</h1>
-
-    <hr />
-
-    <h2>@section</h2>
-    <section>
-      <h3>white section</h3>
-      <p>this will have white bg</p>
-    </section>
-
-    <section>
-      <h3>off white section</h3>
-      <p>this will have gray bg</p>
-    </section>
-
-    <hr />
-
-    <h2>@footer</h2>
-    <footer>
-      <div>some small heading</div>
-      <ul>
-        <li>socialOne</li>
-        <li>socialTwo</li>
-        <li>socialThree</li>
-      </ul>
-    </footer>
-  </body>
 </html>
