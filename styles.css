@@ -123,3 +123,7 @@ background-color: var(--section-gray-color);
 .footer .ul{
     padding-inline-start: 0px;
 }
+.footer-header{
+    font-weight: bold;
+    font-size: x-large;
+}
