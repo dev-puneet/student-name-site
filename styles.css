@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
+
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
@@ -10,7 +12,8 @@ hr {
 }
 
 :root {
-  --primary-color: #7c3aed;
+  --primary-color: 
+  #F87171;
   --header-heading-color: #6b7280;
   --section-gray-color: #d1d5db;
 }
@@ -124,4 +127,9 @@ hr {
 .footer-header {
   font-weight: bold;
   font-size: x-large;
+}
+
+.project-spacing{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
