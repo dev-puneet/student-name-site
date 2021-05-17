@@ -18,6 +18,9 @@ hr {
   --section-gray-color: #d1d5db;
 }
 
+i{
+  color:black;
+}
 .container {
   padding: 0rem 1rem;
 }
