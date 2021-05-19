@@ -135,3 +135,21 @@ hr {
 i {
   font-size: 100px;
 }
+
+.blog-image{
+  max-width: 600px;
+  max-height: 600px;
+  margin-top: 4rem;
+  display: block;
+}
+
+div small{
+  font-weight: bold;
+  font-size: large;
+}
+
+div p{
+  font-size: large;
+}
+
+
